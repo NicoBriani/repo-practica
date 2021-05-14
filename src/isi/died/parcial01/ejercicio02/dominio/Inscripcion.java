@@ -71,6 +71,12 @@ public class Inscripcion {
 	public void setEstado(Estado estado) {
 		this.estado = estado;
 	}
+
+	public int getNota() {
+		//retorna nota, no llegue a implementarlo
+		return 1;
+	}
+	
 	
 	
 }

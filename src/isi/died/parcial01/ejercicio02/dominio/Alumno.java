@@ -13,6 +13,18 @@ public class Alumno {
 	private List<Inscripcion> materiasCursadas;
 	private List<Examen> examenes;
 	
+	
+	
+	public List<Inscripcion> getMateriasCursadas() {
+		return materiasCursadas;
+	}
+
+
+	public void setMateriasCursadas(List<Inscripcion> materiasCursadas) {
+		this.materiasCursadas = materiasCursadas;
+	}
+
+
 	public Alumno() {
 		this.id = ID_GENERATOR++;
 		this.materiasCursadas = new ArrayList<Inscripcion>();
